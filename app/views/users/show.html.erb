@@ -3,7 +3,9 @@
     <section class="user_info">
       <h1>
         <%= gravatar_for @user %>
-        <%= @user.name %>
+        <%= @user.name %><br>
+        地域：<%= @user.area %><br>
+        プロフィール：<%= @user.profile %>
       </h1>
     </section>
   </aside>
